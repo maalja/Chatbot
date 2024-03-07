@@ -1,6 +1,6 @@
 # Chatbot
 
-a web-based chatbot using Flask and deep learning techniques. The chatbot is trained on a dataset of categories (intents), pattern and responses, and can respond to a wide range of user queries.
+A web-based chatbot using Flask and deep learning techniques. The chatbot is trained on a dataset of categories (intents), pattern and responses, and can respond to a wide range of user queries.
 
 The chatbot is trained using a deep learning model. The model is a special artificial neural network (ANN) that is trained  to classify which category the user’s message belongs to and then we will give a random response from the list of responses. The model is trained using the Keras library.
 
