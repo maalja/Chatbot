@@ -14,7 +14,7 @@ words=[]
 classes = []
 documents = []
 ignore_words = ['?', '!']
-data_file = open("C:/Users/mahrh/VS-Projects/Chatbot/data.json").read()
+data_file = open("data.json").read()
 intents = json.loads(data_file)
 
 
@@ -44,8 +44,8 @@ print (len(classes), "classes", classes)
 print (len(words), "unique lemmatized words", words)
 
 
-pickle.dump(words,open('C:/Users/mahrh/VS-Projects/Chatbot/Texts.pkl','wb'))
-pickle.dump(classes,open('C:/Users/mahrh/VS-Projects/Chatbot/labels.pkl','wb'))
+pickle.dump(words,open('Texts.pkl','wb'))
+pickle.dump(classes,open('labels.pkl','wb'))
 
 # create our training data
 training = []
@@ -92,6 +92,6 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 
 #fitting and saving the model 
 hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
-model.save('C:/Users/mahrh/VS-Projects/Chatbot/model.h5', hist)
+model.save('model.h5', hist)
 
 print("model created")
