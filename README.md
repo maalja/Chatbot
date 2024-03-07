@@ -7,12 +7,12 @@ The chatbot is trained using a deep learning model. The model is a special artif
 The chatbot is implemented as a web-based application using Flask, which makes it easy to deploy and use.
 ## How to use:
 
-    Clone the project repository.
-    Install the required dependencies with `pip install -r requirements.txt`
-    Run the Flask app with `python app.py`
-    Open a web browser and navigate to the chatbot's URL.
-    Type in your query and press Enter.
-    The chatbot will respond to your query.
+1. Clone the project repository.
+2. Install the required dependencies with `pip install -r requirements.txt`
+3. Run the Flask app with `python app.py`
+4. Open a web browser and navigate to the chatbot's URL.
+5. Type in your query and press Enter.
+6. The chatbot will respond to your query.
     
 ## Output:
 ![grafik](https://github.com/maalja/Chatbot/assets/153437966/9461f7a2-7de9-4f8e-9dc1-17f9b196a718)
